@@ -1,4 +1,4 @@
-﻿Log file open, 01/07/18 17:17:08
+﻿Log file open, 01/07/18 17:24:05
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: the_game
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1867757667) SRandInit(1867757667).
+LogInit: Display: RandInit(-963240382) SRandInit(-963240382).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3794801, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.222544
+LogStats: Stats thread started at 0.221369
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -196,881 +196,270 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.01.07-22.17.09:972][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.07-22.17.09:972][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.01.07-22.17.09:981][  0]LogInit: Computer: DESKTOP-SLNCOBD
-[2018.01.07-22.17.09:981][  0]LogInit: User: dhenn
-[2018.01.07-22.17.09:982][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.01.07-22.17.09:982][  0]LogInit: High frequency timer resolution =3.513588 MHz
-[2018.01.07-22.17.09:982][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2018.01.07-22.17.09:982][  0]LogMemory: Platform Memory Stats for Windows
-[2018.01.07-22.17.09:982][  0]LogMemory: Process Physical Memory: 274.11 MB used, 274.11 MB peak
-[2018.01.07-22.17.09:982][  0]LogMemory: Process Virtual Memory: 272.34 MB used, 272.34 MB peak
-[2018.01.07-22.17.09:982][  0]LogMemory: Physical Memory: 8162.73 MB used,  24513.21 MB free, 32675.95 MB total
-[2018.01.07-22.17.09:982][  0]LogMemory: Virtual Memory: 684.93 MB used,  24513.21 MB free, 134217728.00 MB total
-[2018.01.07-22.17.10:129][  0]LogInit: Using OS detected language (en-US).
-[2018.01.07-22.17.10:129][  0]LogInit: Using OS detected locale (en-US).
-[2018.01.07-22.17.10:131][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.01.07-22.17.10:477][  0]LogInit: Setting process to per monitor DPI aware
-[2018.01.07-22.17.10:746][  0]LogD3D11RHI: D3D11 adapters:
-[2018.01.07-22.17.10:789][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
-[2018.01.07-22.17.10:789][  0]LogD3D11RHI:       11132/0/16337 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2018.01.07-22.17.10:791][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.01.07-22.17.10:791][  0]LogD3D11RHI:       0/0/16337 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.01.07-22.17.10:791][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.01.07-22.17.10:802][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.01.07-22.17.10:802][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
-[2018.01.07-22.17.10:802][  0]LogWindows: EnumDisplayDevices:
-[2018.01.07-22.17.10:802][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
-[2018.01.07-22.17.10:802][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
-[2018.01.07-22.17.10:802][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
-[2018.01.07-22.17.10:802][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2018.01.07-22.17.10:802][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.01.07-22.17.10:802][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
-[2018.01.07-22.17.10:802][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.01.07-22.17.10:802][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.01.07-22.17.10:802][  0]LogRHI: Texture pool is 7792 MB (70% of 11132 MB)
-[2018.01.07-22.17.10:826][  0]LogD3D11RHI: Async texture creation enabled
-[2018.01.07-22.17.10:917][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.01.07-22.17.11:049][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (E:/2017/git/twod_fighting_game/the_game/Intermediate/Shaders/WorkingDirectory/43212/).
-[2018.01.07-22.17.11:049][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dhenn/AppData/Local/Temp/UnrealShaderWorkingDir/1481A8514C629CA4FCE41B8A725B2906/'.
-[2018.01.07-22.17.11:050][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.01.07-22.17.11:871][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.01.07-22.17.11:920][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.01.07-22.17.11:968][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.01.07-22.17.12:017][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.01.07-22.17.12:066][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.01.07-22.17.12:116][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.01.07-22.17.12:165][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.01.07-22.17.12:214][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.01.07-22.17.12:258][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.01.07-22.17.12:307][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.01.07-22.17.12:355][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.01.07-22.17.12:403][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.01.07-22.17.12:450][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.01.07-22.17.12:497][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.01.07-22.17.12:594][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.01.07-22.17.12:594][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.01.07-22.17.12:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.01.07-22.17.12:682][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.01.07-22.17.12:770][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.01.07-22.17.12:795][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.01.07-22.17.12:843][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.01.07-22.17.12:891][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.01.07-22.17.12:939][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.01.07-22.17.12:987][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.01.07-22.17.12:987][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.01.07-22.17.13:442][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.01.07-22.17.13:511][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/dhenn/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.01.07-22.17.13:511][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/dhenn/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.01.07-22.17.13:511][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/2017/git/twod_fighting_game/the_game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.01.07-22.17.13:511][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.01.07-22.17.13:511][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/2017/git/twod_fighting_game/the_game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.01.07-22.17.13:511][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.01.07-22.17.13:525][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.01.07-22.17.13:537][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dhenn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.01.07-22.17.13:545][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.01.07-22.17.13:545][  0]LogSlate: Using Freetype 2.6.0
-[2018.01.07-22.17.13:546][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.07-22.17.13:546][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.07-22.17.13:855][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.07-22.17.14:156][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.01.07-22.17.14:196][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.01.07-22.17.14:196][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.01.07-22.17.14:196][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.01.07-22.17.14:196][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.01.07-22.17.14:196][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.01.07-22.17.14:244][  0]LogNetVersion: the_game , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 662388109)
-[2018.01.07-22.17.14:389][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
-[2018.01.07-22.17.14:835][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.045568 seconds
-[2018.01.07-22.17.14:841][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
-[2018.01.07-22.17.14:841][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
-[2018.01.07-22.17.14:841][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.01.07-22.17.14:893][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.01.07-22.17.17:439][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.01.07-22.17.17:479][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.01.07-22.17.18:112][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.01.07-22.17.18:515][  0]SourceControl: Source control is disabled
-[2018.01.07-22.17.18:515][  0]SourceControl: Source control is disabled
-[2018.01.07-22.17.18:565][  0]SourceControl: Source control is disabled
-[2018.01.07-22.17.18:614][  0]SourceControl: Source control is disabled
-[2018.01.07-22.17.19:383][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.01.07-22.17.19:635][  0]LogOcInput: OculusInput pre-init called
-[2018.01.07-22.17.19:907][  0]LogEngine: Initializing Engine...
-[2018.01.07-22.17.21:854][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-DD222644
-[2018.01.07-22.17.22:053][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.01.07-22.17.22:053][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.01.07-22.17.22:208][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.01.07-22.17.22:224][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.01.07-22.17.22:252][  0]LogInit: FAudioDevice initialized.
-[2018.01.07-22.17.22:320][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/dhenn/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.01.07-22.17.22:331][  0]LogInit: Texture streaming: Enabled
-[2018.01.07-22.17.22:431][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.01.07-22.17.22:565][  0]LogInit: Transaction tracking system initialized
-[2018.01.07-22.17.22:949][  0]BlueprintLog: New page: Editor Load
-[2018.01.07-22.17.23:910][  0]LocalizationService: Localization service is disabled
-[2018.01.07-22.17.24:441][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
-[2018.01.07-22.17.24:441][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
-[2018.01.07-22.17.24:441][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
-[2018.01.07-22.17.24:657][  0]LogConsoleResponse: Display: 
-[2018.01.07-22.17.24:815][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.01.07-22.17.24:815][  0]LogCook: Display: Mobile HDR setting 1
-[2018.01.07-22.17.24:815][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.01.07-22.17.25:617][  0]LogFileCache: Scanning file cache for directory 'E:/2017/git/twod_fighting_game/the_game/Content/' took 0.02s
-[2018.01.07-22.17.25:992][  0]SourceControl: Source control is disabled
-[2018.01.07-22.17.25:992][  0]Cmd: MAP LOAD FILE="E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.01.07-22.17.25:992][  0]LightingResults: New page: Lighting Build
-[2018.01.07-22.17.26:033][  0]MapCheck: New page: Map Check
-[2018.01.07-22.17.26:033][  0]LightingResults: New page: Lighting Build
-[2018.01.07-22.17.26:409][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2018.01.07-22.17.26:412][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.01.07-22.17.26:426][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.01.07-22.17.26:486][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.864ms to complete.
-[2018.01.07-22.17.26:486][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.494
-[2018.01.07-22.17.26:685][  0]LogCollectionManager: Loaded 0 collections in 0.001379 seconds
-[2018.01.07-22.17.26:784][  0]LogFileCache: Scanning file cache for directory 'E:/2017/git/twod_fighting_game/the_game/Saved/Collections/' took 0.01s
-[2018.01.07-22.17.26:784][  0]LogFileCache: Scanning file cache for directory 'E:/2017/git/twod_fighting_game/the_game/Content/Developers/dhenn/Collections/' took 0.01s
-[2018.01.07-22.17.26:784][  0]LogFileCache: Scanning file cache for directory 'E:/2017/git/twod_fighting_game/the_game/Content/Collections/' took 0.01s
-[2018.01.07-22.17.26:784][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.01.07-22.17.26:790][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2363 classes and 519 folders.
-[2018.01.07-22.17.26:854][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.01.07-22.17.26:889][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.01.07-22.17.26:931][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.01.07-22.17.27:052][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.01.07-22.17.27:053][  0]LogLoad: (Engine Initialization) Total time: 19.18 seconds
-[2018.01.07-22.17.27:053][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.01.07-22.17.27:053][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.01.07-22.17.27:073][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.01.07-22.17.27:114][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2018.01.07-22.17.27:117][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.01.07-22.17.27:118][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.01.07-22.17.27:122][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.01.07-22.17.27:262][  1]LogRenderer: Reallocating scene render targets to support 832x412 Format 10 NumSamples 1 (Frame:1).
-[2018.01.07-22.17.27:262][  1]LogFileCache: Retrieving MD5 hashes for directory 'E:/2017/git/twod_fighting_game/the_game/Content/' took 0.17s
-[2018.01.07-22.17.27:364][  2]LogAssetRegistry: Asset discovery search completed in 12.9973 seconds
-[2018.01.07-22.17.27:367][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.01.07-22.17.27:368][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000059 seconds (updated 0 objects)
-[2018.01.07-22.17.28:123][ 48]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.07-22.17.43:531][315]AssetReimport: New page: Outstanding source content changes 12:17:43 PM
-[2018.01.07-22.19.30:578][316]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.07-22.19.43:105][316]LogDirectoryWatcher: A directory notification failed for 'E:/2017/git/twod_fighting_game/the_game/Content/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.01.07-22.19.43:122][316]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Jump__6_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Jump__5_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Jump__4_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Jump__3_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Jump__2_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Jump__10_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Jump__1_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Idle__9_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Idle__8_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Idle__7_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Idle__6_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Idle__5_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Idle__4_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Idle__3_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Idle__2_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Idle__10_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Idle__1_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Climb__4_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Climb__3_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Climb__2_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Climb__10_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Climb__1_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackSecondary__8_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackSecondary__7_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackSecondary__6_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackSecondary__5_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackSecondary__4_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackSecondary__3_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackSecondary__2_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackSecondary__1_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackMain__7_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackMain__6_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackMain__5_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackMain__4_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackMain__3_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackMain__2_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackMain__1_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Walk__9_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Walk__8_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Walk__7_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Walk__6_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete Walk__5_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackSecondary__5_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackSecondary__4_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackSecondary__3_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackSecondary__2_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackSecondary__1_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackMain__7_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackMain__6_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackMain__5_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackMain__4_ (its source file has been removed).
-[2018.01.07-22.19.46:159][401]AssetReimport: Attempting to delete AttackMain__3_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete AttackMain__2_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete AttackMain__1_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Walk__9_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Walk__8_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Walk__7_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Walk__6_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Walk__5_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Walk__4_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Walk__3_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Walk__2_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Walk__10_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Walk__1_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Throw__6_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Throw__5_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Throw__4_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Throw__3_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Throw__2_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Throw__1_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Slide__9_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Slide__8_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Slide__7_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Slide__6_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Slide__5_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Slide__4_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Slide__3_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Slide__2_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Slide__10_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Slide__1_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Run__8_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Run__7_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Run__6_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Run__5_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Run__4_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Run__3_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Run__2_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Run__1_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete JumpThrow__6_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete JumpThrow__5_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete JumpThrow__4_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete JumpThrow__3_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete JumpThrow__2_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete JumpThrow__1_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete JumpAttack__7_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete JumpAttack__6_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete JumpAttack__5_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete JumpAttack__4_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete JumpAttack__3_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete JumpAttack__2_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete JumpAttack__1_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Jump__9_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Jump__8_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Jump__7_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Jump__6_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Jump__5_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Jump__4_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Jump__3_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Jump__2_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Jump__10_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Jump__1_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Idle__9_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Walk__4_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Hurt__8_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Walk__3_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Walk__2_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Walk__10_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Walk__1_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Throw__6_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Throw__5_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Throw__4_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Throw__3_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Throw__2_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Throw__1_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Slide__9_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Slide__8_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Slide__7_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Slide__6_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Slide__5_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Slide__4_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Slide__3_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Slide__2_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Slide__10_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Slide__1_ (its source file has been removed).
-[2018.01.07-22.19.46:160][401]AssetReimport: Attempting to delete Run__8_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Run__7_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Run__6_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Run__5_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Run__4_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Run__3_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Run__2_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Run__1_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete JumpThrow__6_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete JumpThrow__5_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete JumpThrow__4_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete JumpThrow__3_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete JumpThrow__2_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete JumpThrow__1_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete JumpAttack__7_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete JumpAttack__6_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete JumpAttack__5_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete JumpAttack__4_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete JumpAttack__3_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete JumpAttack__2_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete JumpAttack__1_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Jump__9_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Jump__8_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Jump__7_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Idle__8_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Idle__7_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Idle__6_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Idle__5_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Idle__4_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Idle__3_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Idle__2_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Idle__10_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Idle__1_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Hurt__8_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Hurt__7_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Hurt__6_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Hurt__5_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Hurt__4_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Hurt__3_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Hurt__2_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Hurt__1_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Glide__9_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Glide__8_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Glide__7_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Glide__6_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Glide__5_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Glide__4_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Glide__3_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Glide__2_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Glide__10_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Glide__1_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Dead__9_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Dead__8_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Dead__7_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Dead__6_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Dead__5_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Dead__4_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Dead__3_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Dead__2_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Dead__10_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Dead__1_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete CrouchThrow__6_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete CrouchThrow__5_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete CrouchThrow__4_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete CrouchThrow__3_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete CrouchThrow__2_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete CrouchThrow__1_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete CrouchAttack__8_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete CrouchAttack__7_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete CrouchAttack__6_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete CrouchAttack__5_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete CrouchAttack__4_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete CrouchAttack__3_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete CrouchAttack__2_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete CrouchAttack__1_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Crouch__9_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Crouch__8_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Crouch__7_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Crouch__6_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Crouch__5_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Crouch__4_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Crouch__3_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Crouch__2_ (its source file has been removed).
-[2018.01.07-22.19.46:161][401]AssetReimport: Attempting to delete Crouch__10_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Crouch__1_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Climb__9_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Climb__8_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Climb__7_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Climb__6_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Climb__5_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Hurt__7_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Hurt__6_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Hurt__5_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Hurt__4_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Hurt__3_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Hurt__2_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Hurt__1_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Glide__9_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Glide__8_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Glide__7_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Glide__6_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Glide__5_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Glide__4_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Glide__3_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Glide__2_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Glide__10_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Glide__1_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Dead__9_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Dead__8_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Dead__7_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Dead__6_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Dead__5_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Dead__4_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Dead__3_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Dead__2_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Dead__10_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Dead__1_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete CrouchThrow__6_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete CrouchThrow__5_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete CrouchThrow__4_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete CrouchThrow__3_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete CrouchThrow__2_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete CrouchThrow__1_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete CrouchAttack__8_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete CrouchAttack__7_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete CrouchAttack__6_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete CrouchAttack__5_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete CrouchAttack__4_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete CrouchAttack__3_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete CrouchAttack__2_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete CrouchAttack__1_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Crouch__9_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Crouch__8_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Crouch__7_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Crouch__6_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Crouch__5_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Crouch__4_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Crouch__3_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Crouch__2_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Crouch__10_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Crouch__1_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Climb__9_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Climb__8_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Climb__7_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Climb__6_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Climb__5_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Climb__4_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Climb__3_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Climb__2_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Climb__10_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete Climb__1_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete AttackSecondary__8_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete AttackSecondary__7_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete AttackSecondary__6_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete AttackSecondary__5_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete AttackSecondary__4_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete AttackSecondary__3_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete AttackSecondary__2_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete AttackSecondary__1_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete AttackMain__7_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete AttackMain__6_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete AttackMain__5_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete AttackMain__4_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete AttackMain__3_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete AttackMain__2_ (its source file has been removed).
-[2018.01.07-22.19.46:162][401]AssetReimport: Attempting to delete AttackMain__1_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete AttackSecondary__6_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete AttackSecondary__7_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete AttackSecondary__8_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Climb__1_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Climb__10_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Climb__2_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Climb__3_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Climb__4_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Climb__5_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Climb__6_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Climb__7_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Climb__8_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Climb__9_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Crouch__1_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Crouch__10_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Crouch__2_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Crouch__3_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Crouch__4_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Crouch__5_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Crouch__6_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Crouch__7_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Crouch__8_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Crouch__9_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete CrouchAttack__1_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete CrouchAttack__2_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete CrouchAttack__3_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete CrouchAttack__4_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete CrouchAttack__5_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete CrouchAttack__6_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete CrouchAttack__7_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete CrouchAttack__8_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete CrouchThrow__1_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete CrouchThrow__2_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete CrouchThrow__3_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete CrouchThrow__4_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete CrouchThrow__5_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete CrouchThrow__6_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Dead__1_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Dead__10_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Dead__2_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Dead__3_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Dead__4_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Dead__5_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Dead__6_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Dead__7_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Dead__8_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Dead__9_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Glide__1_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Glide__10_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Glide__2_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Glide__3_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Glide__4_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Glide__5_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Glide__6_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Glide__7_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Glide__8_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Glide__9_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Hurt__1_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Hurt__2_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Hurt__3_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Hurt__4_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Hurt__5_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Hurt__6_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Hurt__7_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Hurt__8_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Idle__1_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Idle__10_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Idle__2_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Idle__3_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Idle__4_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Idle__5_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Idle__6_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Idle__7_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Idle__8_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Idle__9_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Jump__1_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Jump__10_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Jump__2_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Jump__3_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Jump__4_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Jump__5_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Jump__6_ (its source file has been removed).
-[2018.01.07-22.19.46:163][401]AssetReimport: Attempting to delete Jump__7_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Jump__8_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Jump__9_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete JumpAttack__1_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete JumpAttack__2_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete JumpAttack__3_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete JumpAttack__4_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete JumpAttack__5_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete JumpAttack__6_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete JumpAttack__7_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete JumpThrow__1_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete JumpThrow__2_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete JumpThrow__3_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete JumpThrow__4_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete JumpThrow__5_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete JumpThrow__6_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Run__1_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Run__2_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Run__3_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Run__4_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Run__5_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Run__6_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Run__7_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Run__8_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Slide__1_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Slide__10_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Slide__2_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Slide__3_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Slide__4_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Slide__5_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Slide__6_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Slide__7_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Slide__8_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Slide__9_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Throw__1_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Throw__2_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Throw__3_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Throw__4_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Throw__5_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Throw__6_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Walk__1_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Walk__10_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Walk__2_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Walk__3_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Walk__4_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Walk__5_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Walk__6_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Walk__7_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Walk__8_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Walk__9_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete AttackMain__1_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete AttackMain__2_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete AttackMain__3_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete AttackMain__4_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete AttackMain__5_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete AttackMain__6_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete AttackMain__7_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete AttackSecondary__1_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete AttackSecondary__2_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete AttackSecondary__3_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete AttackSecondary__4_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete AttackSecondary__5_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete AttackSecondary__6_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete AttackSecondary__7_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete AttackSecondary__8_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Climb__1_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Climb__10_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Climb__2_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Climb__3_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Climb__4_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Climb__5_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Climb__6_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Climb__7_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Climb__8_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Climb__9_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Crouch__1_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Crouch__10_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Crouch__2_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Crouch__3_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Crouch__4_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Crouch__5_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Crouch__6_ (its source file has been removed).
-[2018.01.07-22.19.46:164][401]AssetReimport: Attempting to delete Crouch__7_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Crouch__8_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Crouch__9_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete CrouchAttack__1_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete CrouchAttack__2_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete CrouchAttack__3_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete CrouchAttack__4_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete CrouchAttack__5_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete CrouchAttack__6_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete CrouchAttack__7_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete CrouchAttack__8_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete CrouchThrow__1_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete CrouchThrow__2_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete CrouchThrow__3_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete CrouchThrow__4_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete CrouchThrow__5_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete CrouchThrow__6_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Dead__1_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Dead__10_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Dead__2_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Dead__3_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Dead__4_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Dead__5_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Dead__6_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Dead__7_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Dead__8_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Dead__9_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Glide__1_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Glide__10_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Glide__2_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Glide__3_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Glide__4_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Glide__5_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Glide__6_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Glide__7_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Glide__8_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Glide__9_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Hurt__1_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Hurt__2_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Hurt__3_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Hurt__4_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Hurt__5_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Hurt__6_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Hurt__7_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Hurt__8_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Idle__1_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Idle__10_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Idle__2_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Idle__3_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Idle__4_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Idle__5_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Idle__6_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Idle__7_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Idle__8_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Idle__9_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Jump__1_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Jump__10_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Jump__2_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Jump__3_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Jump__4_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Jump__5_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Jump__6_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Jump__7_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Jump__8_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Jump__9_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete JumpAttack__1_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete JumpAttack__2_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete JumpAttack__3_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete JumpAttack__4_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete JumpAttack__5_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete JumpAttack__6_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete JumpAttack__7_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete JumpThrow__1_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete JumpThrow__2_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete JumpThrow__3_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete JumpThrow__4_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete JumpThrow__5_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete JumpThrow__6_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Run__1_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Run__2_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Run__3_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Run__4_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Run__5_ (its source file has been removed).
-[2018.01.07-22.19.46:165][401]AssetReimport: Attempting to delete Run__6_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Run__7_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Run__8_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Slide__1_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Slide__10_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Slide__2_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Slide__3_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Slide__4_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Slide__5_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Slide__6_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Slide__7_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Slide__8_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Slide__9_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Throw__1_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Throw__2_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Throw__3_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Throw__4_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Throw__5_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Throw__6_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Walk__1_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Walk__10_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Walk__2_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Walk__3_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Walk__4_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Walk__5_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Walk__6_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Walk__7_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Walk__8_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Walk__9_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Kunai (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Shuriken__000 (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Shuriken__001 (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Shuriken__002 (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Shuriken__003 (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Shuriken__004 (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Shuriken__005 (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Shuriken__006 (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Shuriken__007 (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Shuriken__008 (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Shuriken__009 (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete BodyBack (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete BodyFront (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete BodySide (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete FootBack__1_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete FootBack__2_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Glide (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete HandFront (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete HandOpen (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete HandOpenFront (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete HandSword (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete HandSword2 (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete HeadBack (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete HeadHurt (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete HeadNormal (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete LeftFoot__1_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete LeftFoot__2_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete LeftFoot__3_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete LeftHand__1_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete LeftHand__2_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete LeftHand__3_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete RightFoot__1_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete RightFoot__2_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete RightFoot__3_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete RightHand__1_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete RightHand__2_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete RightHand__3_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Scarf (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete ScarfBack (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Slash (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete Sword (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete BodyBack (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete BodyFront (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete BodySide (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete HandFront (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete HandOpen (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete HandOpenBack (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete HandSword__1_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete HandSword__2_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete HeadBack (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete HeadHurt (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete HeadNormal (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete LeftFoot__1_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete LeftFoot__2_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete LeftFoot__3_ (its source file has been removed).
-[2018.01.07-22.19.46:166][401]AssetReimport: Attempting to delete LeftFootBack__1_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete LeftFootBack__2_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete LeftHand__1_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete LeftHand__2_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete LeftHand__3_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete LeftHandFront (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightFoot__1_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightFoot__2_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightFoot__3_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightFootBack__1_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightFootBack__2_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightHand__1_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightHand__2_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightHand__3_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete Sword (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete BodyBack (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete BodyFront (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete BodySide (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete font35_I (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete Hair__1_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete Hair__2_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete Hair__3_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete HandOpenBack (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete HandOpenFront (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete HandSword (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete HandSwordFront (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete HeadAngry (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete HeadHappy (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete HeadHurt (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete HeadNormal (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete Left_Hand__4_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete Left_Hand__5_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete LeftFoot__1_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete LeftFoot__2_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete LeftFoot__3_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete LeftFootBack__1_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete LeftFootBack__2_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete LeftHand__1_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete LeftHand__2_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete LeftHand__3_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightFoot__1_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightFoot__2_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightFoot__3_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightFootBack__1_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightFootBack__2_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightHand__1_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightHand__2_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightHand__3_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete Sword (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete TieFront (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete TieSide (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete BodyBack (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete BodyFront (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete BodySide (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete FootBack__1_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete FootBack__2_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete HandOpen__2_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete HandOpen (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete HandSword__1_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete HandSword__2_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete Head (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete HeadBack (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete LeftFoot__1_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete LeftFoot__2_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete LeftFoot__3_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete LeftHand__1_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete LeftHand__2_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete LeftHand__3_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete LeftHandFront (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightFoot__1_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightFoot__2_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightFoot__3_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightHand__1_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightHand__2_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete RightHand__3_ (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete Scroll (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete ScrollBack (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete ScrollSide (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete Sword (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete Kunai (its source file has been removed).
-[2018.01.07-22.19.46:167][401]AssetReimport: Attempting to delete Shuriken (its source file has been removed).
-[2018.01.07-22.19.53:508][933]LogRenderer: Reallocating scene render targets to support 2248x948 Format 10 NumSamples 1 (Frame:912).
-[2018.01.07-22.20.14:775][635]LogSavePackage: Save=174.45ms
-[2018.01.07-22.20.14:775][635]LogSavePackage: Moving 'E:/2017/git/twod_fighting_game/the_game/Saved/2DSideScrollerExampleMap4C6C7CA5403FAFC035FFCCB87122548B.tmp' to 'E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
-[2018.01.07-22.20.14:776][635]LogSavePackage: Display: Finished SavePackage E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
-[2018.01.07-22.20.14:804][635]LogSavePackage: Save=4.03ms
-[2018.01.07-22.20.14:804][635]LogSavePackage: Moving 'E:/2017/git/twod_fighting_game/the_game/Saved/2DSideScrollerExampleMap_BuiltDaC1517B4F4C61C8005A9FEE98FDB4CD02.tmp' to 'E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
-[2018.01.07-22.20.14:804][635]LogSavePackage: Display: Finished SavePackage E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2018.01.07-22.24.06:743][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.07-22.24.06:744][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.07-22.24.06:753][  0]LogInit: Computer: DESKTOP-SLNCOBD
+[2018.01.07-22.24.06:753][  0]LogInit: User: dhenn
+[2018.01.07-22.24.06:753][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.01.07-22.24.06:753][  0]LogInit: High frequency timer resolution =3.513588 MHz
+[2018.01.07-22.24.06:753][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.01.07-22.24.06:753][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.07-22.24.06:753][  0]LogMemory: Process Physical Memory: 273.23 MB used, 273.23 MB peak
+[2018.01.07-22.24.06:753][  0]LogMemory: Process Virtual Memory: 272.39 MB used, 272.39 MB peak
+[2018.01.07-22.24.06:753][  0]LogMemory: Physical Memory: 8205.08 MB used,  24470.87 MB free, 32675.95 MB total
+[2018.01.07-22.24.06:753][  0]LogMemory: Virtual Memory: 684.93 MB used,  24470.87 MB free, 134217728.00 MB total
+[2018.01.07-22.24.06:903][  0]LogInit: Using OS detected language (en-US).
+[2018.01.07-22.24.06:903][  0]LogInit: Using OS detected locale (en-US).
+[2018.01.07-22.24.06:906][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.01.07-22.24.07:253][  0]LogInit: Setting process to per monitor DPI aware
+[2018.01.07-22.24.07:542][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.07-22.24.07:583][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2018.01.07-22.24.07:583][  0]LogD3D11RHI:       11132/0/16337 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.01.07-22.24.07:584][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.07-22.24.07:584][  0]LogD3D11RHI:       0/0/16337 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.07-22.24.07:584][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.07-22.24.07:596][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.07-22.24.07:596][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.07-22.24.07:596][  0]LogWindows: EnumDisplayDevices:
+[2018.01.07-22.24.07:596][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2018.01.07-22.24.07:596][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.01.07-22.24.07:596][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.01.07-22.24.07:596][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.01.07-22.24.07:596][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.07-22.24.07:596][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2018.01.07-22.24.07:597][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.07-22.24.07:597][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.07-22.24.07:597][  0]LogRHI: Texture pool is 7792 MB (70% of 11132 MB)
+[2018.01.07-22.24.07:622][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.07-22.24.07:672][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.07-22.24.07:806][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (E:/2017/git/twod_fighting_game/the_game/Intermediate/Shaders/WorkingDirectory/44300/).
+[2018.01.07-22.24.07:806][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dhenn/AppData/Local/Temp/UnrealShaderWorkingDir/06CBF9C845D3662DD469CFA428062F14/'.
+[2018.01.07-22.24.07:806][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.01.07-22.24.08:648][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.07-22.24.08:699][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.01.07-22.24.08:749][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.07-22.24.08:800][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.01.07-22.24.08:852][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.01.07-22.24.08:903][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.07-22.24.08:954][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.07-22.24.09:004][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.07-22.24.09:050][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.01.07-22.24.09:100][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.07-22.24.09:150][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.07-22.24.09:199][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.07-22.24.09:249][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.07-22.24.09:299][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.07-22.24.09:404][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.07-22.24.09:404][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.07-22.24.09:458][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.01.07-22.24.09:498][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.01.07-22.24.09:587][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.01.07-22.24.09:613][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.01.07-22.24.09:663][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.07-22.24.09:718][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.07-22.24.09:768][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.07-22.24.09:819][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.01.07-22.24.09:819][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.01.07-22.24.10:279][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.01.07-22.24.10:349][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/dhenn/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.07-22.24.10:349][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/dhenn/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.01.07-22.24.10:349][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/2017/git/twod_fighting_game/the_game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.07-22.24.10:349][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.07-22.24.10:349][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/2017/git/twod_fighting_game/the_game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.07-22.24.10:349][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.07-22.24.10:363][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.07-22.24.10:375][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dhenn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.07-22.24.10:384][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.07-22.24.10:385][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.07-22.24.10:385][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.07-22.24.10:385][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.07-22.24.10:701][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.07-22.24.10:950][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.07-22.24.10:991][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.07-22.24.10:991][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.07-22.24.10:991][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.01.07-22.24.10:991][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.01.07-22.24.10:991][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.01.07-22.24.11:104][  0]LogNetVersion: the_game , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 662388109)
+[2018.01.07-22.24.11:251][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2018.01.07-22.24.11:696][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.043618 seconds
+[2018.01.07-22.24.11:701][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2018.01.07-22.24.11:701][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
+[2018.01.07-22.24.11:701][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.07-22.24.11:757][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.07-22.24.14:612][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.07-22.24.14:653][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.07-22.24.15:316][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.07-22.24.15:737][  0]SourceControl: Source control is disabled
+[2018.01.07-22.24.15:737][  0]SourceControl: Source control is disabled
+[2018.01.07-22.24.15:791][  0]SourceControl: Source control is disabled
+[2018.01.07-22.24.15:843][  0]SourceControl: Source control is disabled
+[2018.01.07-22.24.16:711][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.07-22.24.16:974][  0]LogOcInput: OculusInput pre-init called
+[2018.01.07-22.24.17:257][  0]LogEngine: Initializing Engine...
+[2018.01.07-22.24.19:195][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-DD222644
+[2018.01.07-22.24.19:406][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.07-22.24.19:406][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.07-22.24.19:579][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.07-22.24.19:596][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.07-22.24.19:627][  0]LogInit: FAudioDevice initialized.
+[2018.01.07-22.24.19:690][  0]LogDerivedDataCache: Saved boot cache 0.06s 78MB C:/Users/dhenn/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.07-22.24.19:702][  0]LogInit: Texture streaming: Enabled
+[2018.01.07-22.24.19:807][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.07-22.24.19:946][  0]LogInit: Transaction tracking system initialized
+[2018.01.07-22.24.20:313][  0]BlueprintLog: New page: Editor Load
+[2018.01.07-22.24.21:330][  0]LocalizationService: Localization service is disabled
+[2018.01.07-22.24.21:885][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.01.07-22.24.21:885][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.01.07-22.24.21:885][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2018.01.07-22.24.22:111][  0]LogConsoleResponse: Display: 
+[2018.01.07-22.24.22:273][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.07-22.24.22:273][  0]LogCook: Display: Mobile HDR setting 1
+[2018.01.07-22.24.22:273][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.01.07-22.24.22:993][  0]LogFileCache: Scanning file cache for directory 'E:/2017/git/twod_fighting_game/the_game/Content/' took 0.03s
+[2018.01.07-22.24.23:569][  0]SourceControl: Source control is disabled
+[2018.01.07-22.24.23:569][  0]Cmd: MAP LOAD FILE="E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.07-22.24.23:570][  0]LightingResults: New page: Lighting Build
+[2018.01.07-22.24.23:618][  0]MapCheck: New page: Map Check
+[2018.01.07-22.24.23:618][  0]LightingResults: New page: Lighting Build
+[2018.01.07-22.24.23:652][  0]LogLinker: Warning: Can't find file '/Game/png-purple/flipbook/Idle-purple'
+[2018.01.07-22.24.23:652][  0]LogLinker: Warning: Can't find file for asset '/Game/png-purple/flipbook/Idle-purple' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset.
+[2018.01.07-22.24.23:652][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter : Can't find file for asset. /Game/png-purple/flipbook/Idle-purple
+[2018.01.07-22.24.23:653][  0]LogLinker: Warning: Can't find file '/Game/png-purple/flipbook/jump-purple'
+[2018.01.07-22.24.23:653][  0]LogLinker: Warning: Can't find file for asset '/Game/png-purple/flipbook/jump-purple' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset.
+[2018.01.07-22.24.23:653][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter : Can't find file for asset. /Game/png-purple/flipbook/jump-purple
+[2018.01.07-22.24.23:653][  0]LogLinker: Warning: Can't find file '/Game/png-purple/flipbook/Run-purple'
+[2018.01.07-22.24.23:653][  0]LogLinker: Warning: Can't find file for asset '/Game/png-purple/flipbook/Run-purple' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset.
+[2018.01.07-22.24.23:653][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter : Can't find file for asset. /Game/png-purple/flipbook/Run-purple
+[2018.01.07-22.24.23:653][  0]LogLinker: Warning: Can't find file '/Game/png-purple/flipbook/Idle-purple'
+[2018.01.07-22.24.23:653][  0]LogLinker: Warning: Can't find file for asset '/Game/png-purple/flipbook/Idle-purple' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset.
+[2018.01.07-22.24.23:653][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter : Can't find file for asset. /Game/png-purple/flipbook/Idle-purple
+[2018.01.07-22.24.23:653][  0]LogLinker: Warning: Can't find file '/Game/png-purple/flipbook/jump-purple'
+[2018.01.07-22.24.23:653][  0]LogLinker: Warning: Can't find file for asset '/Game/png-purple/flipbook/jump-purple' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset.
+[2018.01.07-22.24.23:653][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter : Can't find file for asset. /Game/png-purple/flipbook/jump-purple
+[2018.01.07-22.24.23:654][  0]LogLinker: Warning: Can't find file '/Game/png-purple/flipbook/Run-purple'
+[2018.01.07-22.24.23:654][  0]LogLinker: Warning: Can't find file for asset '/Game/png-purple/flipbook/Run-purple' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset.
+[2018.01.07-22.24.23:654][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter : Can't find file for asset. /Game/png-purple/flipbook/Run-purple
+[2018.01.07-22.24.23:655][  0]LogLinker: Warning: Can't find file '/Game/png-purple/flipbook/Idle-purple'
+[2018.01.07-22.24.23:655][  0]LogLinker: Warning: Can't find file for asset '/Game/png-purple/flipbook/Idle-purple' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2018.01.07-22.24.23:655][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/png-purple/flipbook/Idle-purple
+[2018.01.07-22.24.23:655][  0]LogLinker: Warning: Can't find file '/Game/png-purple/flipbook/jump-purple'
+[2018.01.07-22.24.23:655][  0]LogLinker: Warning: Can't find file for asset '/Game/png-purple/flipbook/jump-purple' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2018.01.07-22.24.23:655][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/png-purple/flipbook/jump-purple
+[2018.01.07-22.24.23:655][  0]LogLinker: Warning: Can't find file '/Game/png-purple/flipbook/Run-purple'
+[2018.01.07-22.24.23:655][  0]LogLinker: Warning: Can't find file for asset '/Game/png-purple/flipbook/Run-purple' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2018.01.07-22.24.23:655][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/png-purple/flipbook/Run-purple
+[2018.01.07-22.24.23:655][  0]LogLinker: Warning: Can't find file '/Game/png-purple/flipbook/Idle-purple'
+[2018.01.07-22.24.23:655][  0]LogLinker: Warning: Can't find file for asset '/Game/png-purple/flipbook/Idle-purple' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2018.01.07-22.24.23:655][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/png-purple/flipbook/Idle-purple
+[2018.01.07-22.24.23:655][  0]LogLinker: Warning: Can't find file '/Game/png-purple/flipbook/jump-purple'
+[2018.01.07-22.24.23:655][  0]LogLinker: Warning: Can't find file for asset '/Game/png-purple/flipbook/jump-purple' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2018.01.07-22.24.23:655][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/png-purple/flipbook/jump-purple
+[2018.01.07-22.24.23:656][  0]LogLinker: Warning: Can't find file '/Game/png-purple/flipbook/Run-purple'
+[2018.01.07-22.24.23:656][  0]LogLinker: Warning: Can't find file for asset '/Game/png-purple/flipbook/Run-purple' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2018.01.07-22.24.23:656][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/png-purple/flipbook/Run-purple
+[2018.01.07-22.24.23:656][  0]LogLinker: Warning: Can't find file '/Game/png-purple/flipbook/Idle-purple'
+[2018.01.07-22.24.23:656][  0]LoadErrors: Failed to load /Game/png-purple/flipbook/Idle-purple.Idle-purple Referenced by Sprite0
+[2018.01.07-22.24.23:656][  0]LogLinker: Warning: Can't find file for asset '/Game/png-purple/flipbook/Idle-purple' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2018.01.07-22.24.23:657][  0]LoadErrors: Failed to load /Game/png-purple/flipbook/Idle-purple.Idle-purple Referenced by Sprite0
+[2018.01.07-22.24.23:657][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/png-purple/flipbook/Idle-purple
+[2018.01.07-22.24.23:658][  0]LogLinker: Warning: Can't find file '/Game/png-purple/flipbook/Idle-purple'
+[2018.01.07-22.24.23:658][  0]LoadErrors: Failed to load /Game/png-purple/flipbook/Idle-purple.Idle-purple Referenced by K2Node_Select_15
+[2018.01.07-22.24.23:658][  0]LogLinker: Warning: Can't find file for asset '/Game/png-purple/flipbook/Idle-purple' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2018.01.07-22.24.23:658][  0]LoadErrors: Failed to load /Game/png-purple/flipbook/Idle-purple.Idle-purple Referenced by K2Node_Select_15
+[2018.01.07-22.24.23:658][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/png-purple/flipbook/Idle-purple
+[2018.01.07-22.24.23:658][  0]LogLinker: Warning: Can't find file '/Game/png-purple/flipbook/Run-purple'
+[2018.01.07-22.24.23:658][  0]LoadErrors: Failed to load /Game/png-purple/flipbook/Run-purple.Run-purple Referenced by K2Node_Select_15
+[2018.01.07-22.24.23:659][  0]LogLinker: Warning: Can't find file for asset '/Game/png-purple/flipbook/Run-purple' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2018.01.07-22.24.23:659][  0]LoadErrors: Failed to load /Game/png-purple/flipbook/Run-purple.Run-purple Referenced by K2Node_Select_15
+[2018.01.07-22.24.23:659][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/png-purple/flipbook/Run-purple
+[2018.01.07-22.24.23:660][  0]LogLinker: Warning: Can't find file '/Game/png-purple/flipbook/jump-purple'
+[2018.01.07-22.24.23:660][  0]LoadErrors: Failed to load /Game/png-purple/flipbook/jump-purple.jump-purple Referenced by K2Node_CallFunction_29117
+[2018.01.07-22.24.23:660][  0]LogLinker: Warning: Can't find file for asset '/Game/png-purple/flipbook/jump-purple' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2018.01.07-22.24.23:660][  0]LoadErrors: Failed to load /Game/png-purple/flipbook/jump-purple.jump-purple Referenced by K2Node_CallFunction_29117
+[2018.01.07-22.24.23:660][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/png-purple/flipbook/jump-purple
+[2018.01.07-22.24.23:673][  0]LogLinker: Warning: Can't find file '/Game/png-pink/flip-book/Idle-pink'
+[2018.01.07-22.24.23:673][  0]LogLinker: Warning: Can't find file for asset '/Game/png-pink/flip-book/Idle-pink' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_2.uasset.
+[2018.01.07-22.24.23:673][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_2 : Can't find file for asset. /Game/png-pink/flip-book/Idle-pink
+[2018.01.07-22.24.23:673][  0]LogLinker: Warning: Can't find file '/Game/png-pink/flip-book/Jump-pink'
+[2018.01.07-22.24.23:673][  0]LogLinker: Warning: Can't find file for asset '/Game/png-pink/flip-book/Jump-pink' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_2.uasset.
+[2018.01.07-22.24.23:673][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_2 : Can't find file for asset. /Game/png-pink/flip-book/Jump-pink
+[2018.01.07-22.24.23:673][  0]LogLinker: Warning: Can't find file '/Game/png-pink/flip-book/Run-pink'
+[2018.01.07-22.24.23:673][  0]LogLinker: Warning: Can't find file for asset '/Game/png-pink/flip-book/Run-pink' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_2.uasset.
+[2018.01.07-22.24.23:673][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_2 : Can't find file for asset. /Game/png-pink/flip-book/Run-pink
+[2018.01.07-22.24.23:673][  0]LogLinker: Warning: Can't find file '/Game/png-pink/flip-book/Idle-pink'
+[2018.01.07-22.24.23:673][  0]LogLinker: Warning: Can't find file for asset '/Game/png-pink/flip-book/Idle-pink' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_2.uasset.
+[2018.01.07-22.24.23:674][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_2 : Can't find file for asset. /Game/png-pink/flip-book/Idle-pink
+[2018.01.07-22.24.23:674][  0]LogLinker: Warning: Can't find file '/Game/png-pink/flip-book/Jump-pink'
+[2018.01.07-22.24.23:674][  0]LogLinker: Warning: Can't find file for asset '/Game/png-pink/flip-book/Jump-pink' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_2.uasset.
+[2018.01.07-22.24.23:674][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_2 : Can't find file for asset. /Game/png-pink/flip-book/Jump-pink
+[2018.01.07-22.24.23:674][  0]LogLinker: Warning: Can't find file '/Game/png-pink/flip-book/Run-pink'
+[2018.01.07-22.24.23:674][  0]LogLinker: Warning: Can't find file for asset '/Game/png-pink/flip-book/Run-pink' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_2.uasset.
+[2018.01.07-22.24.23:674][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_2 : Can't find file for asset. /Game/png-pink/flip-book/Run-pink
+[2018.01.07-22.24.23:675][  0]LogLinker: Warning: Can't find file '/Game/png-pink/flip-book/Idle-pink'
+[2018.01.07-22.24.23:675][  0]LogLinker: Warning: Can't find file for asset '/Game/png-pink/flip-book/Idle-pink' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2018.01.07-22.24.23:675][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/png-pink/flip-book/Idle-pink
+[2018.01.07-22.24.23:675][  0]LogLinker: Warning: Can't find file '/Game/png-pink/flip-book/Jump-pink'
+[2018.01.07-22.24.23:675][  0]LogLinker: Warning: Can't find file for asset '/Game/png-pink/flip-book/Jump-pink' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2018.01.07-22.24.23:675][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/png-pink/flip-book/Jump-pink
+[2018.01.07-22.24.23:675][  0]LogLinker: Warning: Can't find file '/Game/png-pink/flip-book/Run-pink'
+[2018.01.07-22.24.23:675][  0]LogLinker: Warning: Can't find file for asset '/Game/png-pink/flip-book/Run-pink' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2018.01.07-22.24.23:675][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/png-pink/flip-book/Run-pink
+[2018.01.07-22.24.23:675][  0]LogLinker: Warning: Can't find file '/Game/png-pink/flip-book/Idle-pink'
+[2018.01.07-22.24.23:675][  0]LogLinker: Warning: Can't find file for asset '/Game/png-pink/flip-book/Idle-pink' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2018.01.07-22.24.23:675][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/png-pink/flip-book/Idle-pink
+[2018.01.07-22.24.23:676][  0]LogLinker: Warning: Can't find file '/Game/png-pink/flip-book/Jump-pink'
+[2018.01.07-22.24.23:676][  0]LogLinker: Warning: Can't find file for asset '/Game/png-pink/flip-book/Jump-pink' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2018.01.07-22.24.23:676][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/png-pink/flip-book/Jump-pink
+[2018.01.07-22.24.23:676][  0]LogLinker: Warning: Can't find file '/Game/png-pink/flip-book/Run-pink'
+[2018.01.07-22.24.23:676][  0]LogLinker: Warning: Can't find file for asset '/Game/png-pink/flip-book/Run-pink' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2018.01.07-22.24.23:676][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/png-pink/flip-book/Run-pink
+[2018.01.07-22.24.23:676][  0]LogLinker: Warning: Can't find file '/Game/png-pink/flip-book/Run-pink'
+[2018.01.07-22.24.23:676][  0]LoadErrors: Failed to load /Game/png-pink/flip-book/Run-pink.Run-pink Referenced by Sprite0
+[2018.01.07-22.24.23:677][  0]LogLinker: Warning: Can't find file for asset '/Game/png-pink/flip-book/Run-pink' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2018.01.07-22.24.23:677][  0]LoadErrors: Failed to load /Game/png-pink/flip-book/Run-pink.Run-pink Referenced by Sprite0
+[2018.01.07-22.24.23:677][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/png-pink/flip-book/Run-pink
+[2018.01.07-22.24.23:679][  0]LogLinker: Warning: Can't find file '/Game/png-pink/flip-book/Idle-pink'
+[2018.01.07-22.24.23:679][  0]LoadErrors: Failed to load /Game/png-pink/flip-book/Idle-pink.Idle-pink Referenced by K2Node_Select_15
+[2018.01.07-22.24.23:679][  0]LogLinker: Warning: Can't find file for asset '/Game/png-pink/flip-book/Idle-pink' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2018.01.07-22.24.23:679][  0]LoadErrors: Failed to load /Game/png-pink/flip-book/Idle-pink.Idle-pink Referenced by K2Node_Select_15
+[2018.01.07-22.24.23:679][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/png-pink/flip-book/Idle-pink
+[2018.01.07-22.24.23:679][  0]LogLinker: Warning: Can't find file '/Game/png-pink/flip-book/Run-pink'
+[2018.01.07-22.24.23:679][  0]LoadErrors: Failed to load /Game/png-pink/flip-book/Run-pink.Run-pink Referenced by K2Node_Select_15
+[2018.01.07-22.24.23:679][  0]LogLinker: Warning: Can't find file for asset '/Game/png-pink/flip-book/Run-pink' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2018.01.07-22.24.23:679][  0]LoadErrors: Failed to load /Game/png-pink/flip-book/Run-pink.Run-pink Referenced by K2Node_Select_15
+[2018.01.07-22.24.23:679][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/png-pink/flip-book/Run-pink
+[2018.01.07-22.24.23:680][  0]LogLinker: Warning: Can't find file '/Game/png-pink/flip-book/Jump-pink'
+[2018.01.07-22.24.23:680][  0]LoadErrors: Failed to load /Game/png-pink/flip-book/Jump-pink.Jump-pink Referenced by K2Node_CallFunction_29117
+[2018.01.07-22.24.23:680][  0]LogLinker: Warning: Can't find file for asset '/Game/png-pink/flip-book/Jump-pink' while loading E:/2017/git/twod_fighting_game/the_game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap.
+[2018.01.07-22.24.23:680][  0]LoadErrors: Failed to load /Game/png-pink/flip-book/Jump-pink.Jump-pink Referenced by K2Node_CallFunction_29117
+[2018.01.07-22.24.23:680][  0]LoadErrors: Error: /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Can't find file for asset. /Game/png-pink/flip-book/Jump-pink
+[2018.01.07-22.24.23:806][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.01.07-22.24.23:809][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.07-22.24.23:822][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.07-22.24.23:872][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.012ms to complete.
+[2018.01.07-22.24.23:872][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.303
+[2018.01.07-22.24.24:075][  0]LogCollectionManager: Loaded 0 collections in 0.001293 seconds
+[2018.01.07-22.24.24:175][  0]LogFileCache: Scanning file cache for directory 'E:/2017/git/twod_fighting_game/the_game/Saved/Collections/' took 0.01s
+[2018.01.07-22.24.24:175][  0]LogFileCache: Scanning file cache for directory 'E:/2017/git/twod_fighting_game/the_game/Content/Developers/dhenn/Collections/' took 0.01s
+[2018.01.07-22.24.24:175][  0]LogFileCache: Scanning file cache for directory 'E:/2017/git/twod_fighting_game/the_game/Content/Collections/' took 0.01s
+[2018.01.07-22.24.24:175][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.01.07-22.24.24:183][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2363 classes and 519 folders.
+[2018.01.07-22.24.24:253][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.01.07-22.24.24:290][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.01.07-22.24.24:335][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.01.07-22.24.24:394][  0]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.07-22.24.24:396][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.07-22.24.24:402][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.07-22.24.24:482][  0]LogRenderer: Reallocating scene render targets to support 2248x948 Format 10 NumSamples 1 (Frame:1).
+[2018.01.07-22.24.24:673][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.01.07-22.24.24:673][  0]LogLoad: (Engine Initialization) Total time: 20.14 seconds
+[2018.01.07-22.24.24:673][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.01.07-22.24.24:673][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.07-22.24.24:683][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.07-22.24.24:726][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.01.07-22.24.24:870][  1]LogAssetRegistry: Asset discovery search completed in 13.6401 seconds
+[2018.01.07-22.24.24:872][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.07-22.24.24:872][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2018.01.07-22.24.27:760][101]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.07-22.24.29:873][128]LogFileCache: Retrieving MD5 hashes for directory 'E:/2017/git/twod_fighting_game/the_game/Content/' took 5.18s
